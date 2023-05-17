@@ -1,0 +1,112 @@
+body{
+
+    background: linear-gradient(45deg, #0a0a0a, #3a4452)
+
+}
+
+.h1{
+
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    background-color: transparent;
+    color: none;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+span{
+
+    color: darkgoldenrod;
+}
+
+
+div.todo-input-grid{
+
+    justify-content: center;
+   
+}
+
+
+input.name-input{
+
+    padding: 15px;
+    border: 25px;
+    border-radius: 5px;
+    width: 35%;
+    margin-right: none;
+    cursor: pointer;
+
+}
+
+
+input.duedate-input{
+
+padding: 15px;  
+border: 20px;
+border-radius: 5px;
+margin-left: none;
+width: 35%;
+cursor: pointer;
+
+}
+
+button.add-todo-button{
+
+
+    padding: 10px;  
+    border: 25px;
+    border-radius: 5px;
+    margin-left: none;
+    width: 6%;
+    text-align: center;
+    font-weight: bolder;
+    color:  greenyellow;
+    background-color: sandybrown;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+background-color: #45a049;
+
+}
+
+
+
+div{
+
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+button.delete-todo-button{
+
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    color: green;
+    background-color: sandybrown;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+
+button:hover {
+
+    background-color: #45a049;
+}
